@@ -5,17 +5,12 @@ Author: Rethink Marketing
 Template: responz
 */
 
-/* write custom css */
-
 
 body {
     border: 10px solid #BDBDB0;
     background: none !important;
 }
-p{
-    font-family: museo_sans100;
-    font-size: 12pt;
-}
+
 article {
     margin-bottom: 0 !important;
 }
@@ -168,6 +163,7 @@ div#body {
 div#contentwrap {
     padding: 0;
 }
+/*
 .home-slider p {
     margin: 0;
 }
@@ -403,7 +399,7 @@ visibility: visible;
 .page-explore h3.module-title{
     line-height: 1;
 
-}
+} */
 /** Properties Start **/
 .single-property figure.post-image img {
     width: 100%;
