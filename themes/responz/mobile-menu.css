@@ -1,0 +1,208 @@
+/************************************************************************************
+HEADER
+*************************************************************************************/
+/* header */
+#header{
+	height:auto!important;
+}
+
+/* reset absolute elements to static */
+.social-widget,
+#site-logo,
+#site-description,
+#main-nav{
+	position:static;
+	float:none;
+	clear:both;
+}
+
+/* site logo */
+#site-logo{
+	font-size:42px;
+	text-align:left;
+	padding:15px 90px 10px 0;
+	margin:0;
+	width:auto;
+}
+
+/* site description */
+#site-description{
+	text-align:left;
+	margin:0 0 10px;
+}
+
+/* social widget */
+.social-widget{
+	position:static!important;
+	float:none;
+	margin-bottom:10px;
+	overflow:hidden;
+	padding:0;
+}
+
+/* header widget */
+.header-widget{
+	position:static!important;
+	float:none;
+	text-align:left;
+	clear:both;
+	margin:0;
+}
+.header-widget .widget{
+	margin:0 0 10px;
+}
+
+/* top nav */
+#top-nav{
+	padding-right:0;
+}
+#top-nav a{
+	font-size:85%;
+	margin-right:3px;
+}
+
+/************************************************************************************
+MOBILE NAV BUTTON
+*************************************************************************************/
+.mobile-button{
+	position:relative;
+	width:32px;
+	height:30px;
+	margin-bottom:3px;
+	margin-right:3px;
+	display:block;
+	float:right;
+	cursor:pointer;
+	background-color:#eee;
+	border:1px solid #ccc;
+	border-radius:5px;
+}
+.mobile-button:before{
+	content:'\f0c9';
+	font:normal 21px/1em 'themify_theme_icons';
+	color:#000;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin:-.5em 0 0 -.5em;
+	width:1em;
+	height:1em;
+	text-align:center;
+}
+.mobile-button.active:before{
+	color:#555;
+}
+
+/************************************************************************************
+MAIN NAV (MOBILE)
+*************************************************************************************/
+#main-nav-wrap{
+	position:absolute;
+	top:20px;
+	right:0;
+	z-index:1000;
+}
+
+/* main nav */
+#main-nav{
+	clear:both;
+	position:static;
+	width:220px;
+	z-index:1000;
+	height:auto;
+	padding:5px 0;
+	margin:0;
+	background-color:#fff;
+	display:none; /* visibility will be toggled with jquery */
+	border-radius:5px;
+	box-shadow:0 0 0 1px rgba(0,0,0,.1), 0 2px 12px rgba(0,0,0,.2);
+	max-height:70vh;
+	overflow:auto;
+	-webkit-overflow-scrolling:touch;
+}
+#main-nav li{
+	clear:both;
+	float:none;
+	margin:0;
+	padding:0;
+	border:0;
+	box-shadow:none;
+}
+#main-nav > li:first-child > a{
+	padding:6px 15px;
+}
+#main-nav a,
+#main-nav ul a{
+	font:inherit;
+	text-transform:inherit;
+	background:0;
+	width:auto;
+	display:block;
+	padding:7px 15px;
+	min-height:0;
+	margin:0;
+	color:#666;
+	border:0;
+	text-shadow:none;
+	box-shadow:none;
+}
+#main-nav a span{
+	display:none;
+}
+#main-nav a .child-arrow{
+	display:none!important;
+}
+#main-nav a:hover,
+#main-nav ul a:hover{
+	background:rgba(0,0,0,.05);
+	color:#000;
+}
+#main-nav ul a{
+	padding-left:30px;
+}
+
+/* dropdown */
+#main-nav ul{
+	position:static;
+	display:block;
+	margin:0;
+	padding:0;
+	background:0;
+	border:0;
+	border-radius:0;
+	box-shadow:none;
+}
+
+/************************************************************************************
+SEARCH FORM
+*************************************************************************************/
+#searchform-wrap{
+	position:absolute;
+	top:20px;
+	right:40px;
+	z-index:1001;
+}
+#search-icon:before{
+	content:'\e800';
+	font-size:19px;
+}
+#header #searchform{
+	clear:both;
+	width:auto;
+	position:static;
+	overflow:hidden;
+	background-color:#fff;
+	border:solid 1px #999;
+	padding:5px;
+	display:none; /* visibility will be toggled with jquery */
+	border-radius:5px;
+	box-shadow:0 1px 2px rgba(0,0,0,.3);
+}
+#header #searchform #s{
+	background-color:#ddd!important;
+	color:#444!important;
+	float:right;
+}
+#header #searchform input#s:focus{
+	width:150px;
+}

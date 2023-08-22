@@ -1,0 +1,1043 @@
+/*
+Theme Name: Fremantle Beach House
+Description: Theme for Fremantle Beach House
+Author: Rethink Marketing
+Template: responz
+*/
+
+/* write custom css */
+
+
+body {
+    border: 10px solid #BDBDB0;
+    background: none !important;
+}
+p{
+    font-family: museo_sans100;
+    font-size: 12pt;
+}
+article {
+    margin-bottom: 0 !important;
+}
+.col3-1,
+.col3-2,
+.col4-1,
+.col4-3 {
+    max-width: 100% !important;
+}
+.module-image.image-overlay .image-wrap a + .image-content,
+.module-image.image-overlay img + .image-content{
+    position: absolute !important;
+}
+div#site-logo {
+    font-family: caleighregular !important;
+    font-size: 30pt;
+    font-style: normal;
+    position: relative;
+    display: inline-block;
+    top: auto;
+    line-height: 1;
+    padding: 40px;
+    padding-left: 0 !important;
+}
+
+
+#site-logo a {
+    color: #ffffff;
+    display: block;
+    line-height: 0;
+}
+
+div#nav-bar {
+    display: none;
+}
+div#main-nav-wrap {
+    display: inline-block;
+    padding: 0 20px;
+    top: -10px !important;
+    position: relative;
+}
+
+hgroup {
+    display: inline-block;
+}
+
+#main-nav a {
+    min-height: 0;
+    padding: 5px 15px !important;
+    text-transform: uppercase !important;
+    font-family: museo_sans100 !important;
+    color: #ffffff !important;
+    border: none;
+}
+#main-nav .no-text-shadow a {
+    text-shadow: none !important;
+}
+
+#main-nav .header-book a {
+    background: #ffffff;
+    color: #736b67 !important;
+}
+#main-nav ul.sub-menu {
+    background: #736b67;
+    border: none;
+    padding-top: 5px;
+}
+
+#main-nav ul.sub-menu a {
+    text-transform: capitalize !important;
+}
+
+#main-nav ul.sub-menu li a:hover {
+    background: #736b67 !important;
+}
+span.book-now-header {
+    color: #ffffff;
+    font-family: museo_sans500;
+    text-transform: uppercase;
+    background: #B1C0C9;
+    padding: 10px 20px;
+    border-radius: 5px;
+    left: 4%;
+    position: relative;
+    font-size: 12pt;
+}
+span.book-now-header a{
+    color: #ffffff;
+    text-decoration: none !important;
+}
+div#headerwrap {
+    background: #736b67;
+    border: 8px solid #907d6e;
+    border-bottom: 0;
+}
+
+div#pagewrap {
+    background: #ffffff !important;
+}
+
+header#header {
+    width: 98%;
+    border: none;
+    height: auto !important;
+    padding-bottom: 20px;
+}
+
+div#site-description {
+    display: none;
+}
+
+ul#main-nav {
+    position: relative;
+}
+.social-widget {
+    top: 25px;
+}
+
+.widget .social-links a, .widget .social-links a:hover {
+    color: #ffffff;
+}
+
+.header-widget {
+    display: inline-block;
+    top: 55px;
+    text-align: right;
+
+}
+.header-widget .widget{
+    margin: 0 !important;
+}
+.header-widget a{
+    font-family: museo_sans100;
+    color: #ffffff;
+    text-decoration: none !important;
+}
+a.header-phone {
+    font-size: 18pt;
+}
+div#layout {
+    width: 100%;
+}
+
+div#body {
+    border: 8px solid #ffffff;
+    border-top: none;
+    padding-bottom: 0;
+}
+
+div#contentwrap {
+    padding: 0;
+}
+.home-slider p {
+    margin: 0;
+}
+.home .col3-1 h3.image-title {
+    font-family: caleighregular !important;
+    font-size: 30pt !important;
+    font-style: normal;
+    position: absolute;
+    top: 25%;
+    left: 0;
+    right: 0;
+    line-height: 1;
+}
+
+.home .col3-1 .image-content {
+    height: 100%;
+    text-align: center;
+    opacity:0;
+        -webkit-transition: opacity 200ms ease-in;
+       -moz-transition: opacity 200ms ease-in;
+        -ms-transition: opacity 200ms ease-in;
+         -o-transition: opacity 200ms ease-in;
+            transition: opacity 200ms ease-in;
+}
+.home .col3-1 .image-wrap:hover .image-content{
+    -webkit-transition: opacity 200ms ease-in;
+       -moz-transition: opacity 200ms ease-in;
+        -ms-transition: opacity 200ms ease-in;
+         -o-transition: opacity 200ms ease-in;
+            transition: opacity 200ms ease-in;
+    opacity:1;
+}
+
+.home .col3-1 .image-caption {
+    position: absolute;
+    top: 60%;
+    right: 0;
+    left: 0;
+    font-family: museo_sans100;
+    font-size: 18pt;
+    color: #ffffff;
+}
+.home .home-properties .module-image {
+    border: 4px solid #ffffff;
+}
+.home .col4-1.first.home-book-now {
+    position: relative;
+}
+
+.home .col4-1.first.home-book-now .tb-column-inner {
+    position: absolute;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    top: 50%;
+}
+.home .module-slider{
+    margin:0;
+}
+.home .themify_builder_slider .slide-image img {
+    width: 100%   
+}
+.home .module-slider .carousel-nav-wrap{
+    position: absolute;
+    bottom: 15px;
+    right: 0;
+    left: 0;
+}
+.home #map_wrapper {
+    height: 400px;
+}
+
+.home #map_canvas {
+    width: 100%;
+    height: 100%;
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+ */
+    filter: gray; /* IE6-9 */
+	  -webkit-filter: grayscale(99%); /* Chrome 19+ & Safari 6+ */
+	  -webkit-backface-visibility: hidden;  /* Fix for transition flickering */
+}
+h3.module-title {
+    font-family: caleighregular !important;
+    text-transform: lowercase;
+    text-align: center;
+    font-size: 50pt;
+    font-style: normal;
+    margin-bottom: 0px;
+}
+.home .module-image.image-right .image-wrap {
+    margin: 0;
+}
+.home-newsletter h3.module-title {
+    font-family: museo_sans100 !important;
+    color: #ffffff;
+    font-size: 30pt;
+}
+
+.home-newsletter {
+    text-align: center;
+}
+.home-newsletter ul#gform_fields_1 li {
+    display: inline-block;
+    width: 48%;
+}
+
+.home-newsletter div#gform_wrapper_1 {
+    max-width: 100% !important;
+    margin: 10px;
+}
+
+.home-newsletter .gform_wrapper .top_label input.medium {
+    width: 100% !important;
+    background: #B0A690;
+    padding: 10px 3px;
+    border: none;
+    border-radius: 0;
+    max-width: 96%;
+    color: #ffffff;
+}
+.home-guest-reviews{
+    min-height: 50vh !important;
+}
+::-webkit-input-placeholder {
+   color: #ffffff;
+   font-family: museo_sans100;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #ffffff; 
+   font-family: museo_sans100;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #ffffff;
+   font-family: museo_sans100;
+}
+
+:-ms-input-placeholder {  
+   color: #ffffff; 
+   font-family: museo_sans100; 
+}
+
+.home-newsletter .gform_footer.top_label {text-align: center;}
+
+.home-newsletter .gform_footer.top_label input {
+    background: #B1C0C9;
+    font-family: museo_sans500;
+    color: #ffffff;
+    font-size: 14pt;
+}
+.home-book-now h3.module-title {
+    font-family: museo_sans100 !important;
+    letter-spacing: 1px;
+    font-size: 38pt;
+}
+
+.home-check-available p {
+    font-family: caleighregular !IMPORTANT;
+    font-size: 16pt !important;
+}
+span.newsletter-desc {
+    color: #ffffff;
+    font-family: caleighregular !important;
+    font-size: 18pt;
+}
+h3.module-title {
+    color: #ffffff;
+}
+.home-check-available .row_inner {
+    height: 50vh;
+    min-height: 250px;
+}
+.home-explore .row_inner {
+    height: 50vh;
+}
+.home-explore p{
+    margin: 0;
+}
+.home-explore .row_inner .col3-2 .module-text{
+    right: 0;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: 0;
+    margin-bottom: 0;
+      visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s linear;
+}
+.home-explore:hover .row_inner .col3-2 .module-text{
+visibility: visible;
+  opacity: 1;
+}
+.guest-reviews a.carousel-prev {
+    left: 0;
+    position: absolute !important;
+    display: block !important;
+}
+.guest-reviews a.carousel-next {
+    right: 0;
+    position: absolute !important;
+    display: block !important;
+}
+.guest-reviews.module-slider.slider-overlay .slide-content,
+.guest-reviews .slide-content{
+    background: none !important;
+    padding: 20px;
+    text-align: justify;
+    color: #ffffff;
+    font-size: 16pt !important;
+    font-family: museo_sans100 !important;
+    font-style: normal !important;
+    line-height: 1.5;
+    margin: 0;
+}
+.guest-reviews .slide-content p{
+    font-size: 16pt !important;
+}
+.page-explore .row_inner {
+    height: 75vh;
+    min-height: 500px;
+}
+.page-explore p{
+    line-height: 1.5;
+    font-family: museo_sans100;
+    font-size: 12pt;
+}
+.page-explore a.button {
+    font-family: museo_sans500;
+    font-size: 14pt !important;
+}
+.page-explore h3.module-title{
+    line-height: 1;
+
+}
+/** Properties Start **/
+.single-property figure.post-image img {
+    width: 100%;
+    display: block;
+}
+.gallery-section .row_inner {
+    width: 100% !important;
+}
+.single-property figure.post-image,
+.single-property #body .gallery,
+.single-property #body .gallery .gallery-item,
+.single-property .slide-image,
+.single-property .module-slider {
+    margin: 0;
+}
+.single-property #body .gallery,
+.single-property #body .gallery .wcflex-viewport {
+    min-height: 270px;
+}
+.single-property  #body .gallery img {
+    width: 100% !important;
+}
+
+.single-property  #body .gallery .gallery-item,
+.single-property .slide-image img {
+    width: 100%;
+}
+
+.single-property h1.post-title.entry-title,.single-property h1.post-title.entry-title a {
+    color: #745D4A;
+    font-family: caleighregular !important;
+    font-size: 30pt;
+}
+.single-property .col3-2.first.property-desc {
+    background-color: rgba(189,189,176,0.5);
+    padding: 20px;
+}
+.single-property .post-content {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.single-property .property-header{
+    position: relative;
+    line-height: 1.5;
+    border-bottom: 1px solid #745D4A;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+h2.the-area {
+    font-family: museo_sans100;
+    font-style: normal;
+    color: #808080;
+}
+
+.single-property {
+    font-family: museo_sans100;
+    color: #808080;
+    font-size: 11pt;
+}
+.property-desc h3 {
+    font-family: museo_sans100;
+    font-style: normal;
+    color: #808080;
+}
+span.rooms, span.bathrooms {
+    font-family: museo_sans100;
+    font-size: 18pt;
+    color: #745D4A;
+}
+span.bathrooms{
+    margin-left: 10px;
+    background-image: url(https://freobeach.com.au/wp-content/themes/FremantleBeachHouse/images/bath.png);
+    padding-right: 22px;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 20px;
+}
+span.bed-white{
+    margin-left: 10px;
+    background-image: url(https://freobeach.com.au/wp-content/themes/FremantleBeachHouse/images/bath-white.png);
+    padding-right: 22px;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 20px;
+}
+span.rooms i {
+    padding-left: 5px;
+    color: #B0A690;
+}
+.col3-1.last.room-config span {
+    display: block;
+    line-height: 2;
+}
+h3.sleep-config{
+    margin: 0 !important;
+}
+.standard-rates, .summer-rates, .low-rates {
+    margin-bottom: 15px;
+}
+.col3-1.last.property-book {
+    margin-left: 10px;
+    /*width: 33.5%;*/
+  background-color: rgba(116,93,74,0.5);
+    position: relative;
+    right: -2px;
+}
+.col3-1.last.property-book .property-calendar{
+ 	position: relative;
+    padding: 20px 10px;
+}
+.property-calendar table.vrcalendar tr.vrcalendarrow:last-child .vrcalendarcol,
+.property-calendar span.availablenight,
+.property-calendar span.unavailablenight {
+    display: none;
+}
+
+
+
+.property-calendar table.vrcalendar,
+.property-calendar table.month{
+    width: 100%;
+}
+
+.single-property div#popmake-259 {
+    max-height: 100% !important;
+    overflow: auto;
+    top: 0 !important;
+}
+.property-calendar h1.book-now,
+.property-calendar h1.book-now a {
+    text-align: center;
+    font-family: museo_sans100;
+    font-style: normal;
+    font-size: 35pt;
+    color: #ffffff;
+}
+
+.property-calendar a.popmake-property-booking {
+    text-decoration: none !important;
+    letter-spacing: 0px !important;
+    font-size: 18px;
+    line-height: 1.3333333;
+    color: #877662 !important;
+}
+.property-calendar p.book-now-desc {
+    text-align: center;
+    font-family: museo_sans100;
+    color: #ffffff;
+    font-size: 20pt;
+}
+
+.property-calendar td.monthheader {
+    background-color: #ffffff !important;
+    color: #B0A690 !important;
+    text-transform: uppercase;
+    font-size: 14pt !important;
+    line-height: 2;
+    font-family: museo_sans100 !important;
+}
+
+.property-calendar table.vrcalendar {
+    background-color: rgba(177,192,201, 0.4) !important;
+}
+
+.property-calendar .property-calendar table.vrcalendar tr.vrcalendarrow:first-child .vrcalendarcol:first-child {
+    padding: 0;
+    border-top: 5px solid #745D4A !important;
+}
+
+.property-calendar td.dayheader {
+    background: transparent !important;
+    color: #745D4A !important;
+    font-family: museo_sans100 !important;
+}
+
+.property-calendar td.padday,
+.property-calendar td.spaceday {
+    background-color: transparent !important;
+}
+
+.property-calendar tr.monthrow td {
+    height: 45px;
+    font-family: museo_sans100 !important;
+    font-size: 12pt;
+}
+
+.property-calendar td.availablenight,
+.property-calendar span.availablenight {
+    background-color: rgba(255,255,255,0.7) !important;
+    color: #999999 !important;
+}
+.vrc .btn-danger{
+	border-color: #745D4A !important;
+}
+.property-calendar td.unavailablenight,
+.property-calendar span.unavailablenight {
+    background: #745D4A !important;
+    color: #ffffff !important;
+}
+div#booking-form-action {
+    width: 40%;
+    float: right;
+}
+
+em.book-now {
+	position: absolute;
+    bottom: 130px;
+    left: 25px;
+    font-style: normal;
+    width: 30%;
+    background: #ffffff;
+    padding: 10px 16px;
+    border-radius: 6px;
+    border-color: #745D4A !important;
+    border: 1px solid;
+    text-align: center;
+		color: #877662 !important;
+}
+em.book-now:hover {
+    background: #745D4A !important;
+    color: #ffffff !important;
+}
+em.book-now:hover a{
+    color: #ffffff !important;
+}
+.vrc .btn-danger:hover {
+	    background: #745D4A !important;
+    color: #ffffff !important;
+}
+.single-property .property-map {
+    position: relative;
+    cursor: pointer;
+}
+.single-property .property-map iframe{
+    display: block;
+    width: 100%;
+    min-height: 400px;
+}
+.single-property .property-map:hover .map-overlay {
+    display: none;
+}
+.single-property .map-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    margin: 0;
+    background-color: rgba(176,166,144,0.5);
+    color: #ffffff;
+    font-size: 26pt;
+    line-height: 1.2;
+}
+.map-desc {
+    margin: 0;
+    position: absolute;               /* 2 */
+    top: 50%;                         /* 3 */
+    transform: translate(0, -50%);
+    text-align: center;
+    left: 0;
+    right: 0;
+}
+div#calendar {
+    overflow: hidden;
+}
+.single-property .local-attraction .col4-1 {
+    margin: 0;
+    width: 25%;
+}
+.single-property .local-attraction .image-attraction img {
+    width: 100%;
+    display: block;
+}
+.single-property .local-attraction .image-attraction {
+    position: relative;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.single-property .local-attraction .image-desc {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: rgba(177,192,201,0.7);
+    opacity: 0;
+    -webkit-transition: opacity 500ms ease-in;
+    -moz-transition: opacity 500ms ease-in;
+    -o-transition: opacity 500ms ease-in;
+    -ms-transition: opacity 500ms ease-in;
+    transition: opacity 500ms ease-out;
+}
+
+.single-property .local-attraction .image-attraction:hover .image-desc {
+    -webkit-transition: opacity 500ms ease-in;
+    -moz-transition: opacity 500ms ease-in;
+    -o-transition: opacity 500ms ease-in;
+    -ms-transition: opacity 500ms ease-in;
+    transition: opacity 500ms ease-in;
+    opacity: 1;
+}
+
+.single-property .local-attraction h3.attraction-name {
+    font-family: caleighregular !important;
+    font-size: 30pt;
+    font-style: normal;
+    color: #ffffff;
+
+}
+.single-property .local-attraction .image-description{
+    margin: 0;
+    position: absolute;               /* 2 */
+    top: 50%;                         /* 3 */
+    transform: translate(0, -50%);
+    text-align: center;
+    left: 0;
+    right: 0;
+}
+.single-property .local-attraction span.distance {
+    color: #ffffff;
+    font-size: 16pt;
+}
+
+.single-property .local-attraction span.distance i {
+    margin-right: 10px;
+}
+.property-testimonial {
+    background-image: url(https://freobeach.com.au/wp-content/uploads/2016/04/Footprints.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/**  Properties End  **/
+/** Guest Reviews Start **/
+h3.category-section-title a {
+    font-family: caleighregular;
+    text-transform: none;
+    font-size: 30pt;
+    text-decoration: none !important;
+    line-height: 2;
+}
+
+.category-section article {
+    background: #f5f3f0;
+    padding: 15px;
+    width: 100% !important;
+    margin: 0 !important;
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+    margin-bottom: 10px !important;
+    font-family: museo_sans100;
+    font-size: 12pt;
+    line-height: 1.5
+}
+
+.category-section .loops-wrapper {
+    -moz-column-count: 3;
+    -moz-column-gap: 10px;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 10px;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 10px;
+    -moz-column-gap: 10px;
+    column-gap: 10px;
+}
+/**  Guest Reviews End  **/
+.footer-nav-wrap {
+    display: none;
+}
+
+.footer-text.clearfix {
+    width: 100%;
+    text-align: center;
+    font-family: museo_sans100;
+    font-style: normal;
+    color: #ffffff;
+}
+
+.footer-text.clearfix a {
+    color: #ffffff!important;
+    text-decoration: none !important;
+}
+
+footer#footer {
+    width: 98%;
+}
+
+div#footerwrap {
+    background: #BDBDB0;
+    padding: 0;
+    padding-top: 20px;
+}
+ul.social-links.horizontal {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+ul.social-links.horizontal a {
+    color: #745D4A !important;
+}
+
+div#themify-social-links-3 {
+    margin-bottom: 10px;
+}
+.postid-64 .header-widget {
+    display: none;
+}
+@media screen and (max-width: 1240px) {
+span.book-now-header {
+    position: relative;
+    display: block;
+    width: 50px;
+    bottom: 10px;
+    left: 15px;
+}
+.social-widget {
+    top: 20px;
+}
+.header-widget {
+    top: 35px;
+}
+div#main-nav-wrap{
+    padding: 0;
+}
+div#site-logo{
+    padding: 20px;
+}
+
+}
+@media screen and (max-width: 1160px) {
+.header-widget {
+    display: block !important;
+    position: relative !important;
+    top: -15px;
+    margin: 0;
+    z-index: 2;
+}
+}
+@media screen and (max-width: 1090px) {
+
+
+.social-widget {
+    z-index: 1;
+    top: 35px;
+}
+
+.social-links.vertical li {
+    display: inline-block !important;
+}
+
+span.book-now-header {
+    position: absolute !important;
+    width: auto !important;
+    z-index: 3;
+}
+div#site-logo {
+    padding: 20px;
+}
+.home .col3-1 h3.image-title {
+    font-size: 24pt !important;
+}
+
+.home .col3-1 .image-caption {
+    font-size: 14pt;
+}
+.room-config .col3-1.first, .room-config .col3-2.last {
+    width: 100%;
+    margin: 0 !important;
+    float: none !important;
+}
+}
+@media screen and (max-width: 980px) {
+.pagewidth{
+    max-width: 100% !important;
+}
+.single-property .local-attraction h3.attraction-name{
+    font-size: 26pt;
+}
+.home-book-now h3.module-title{
+    font-size: 30pt;
+    line-height: 1;
+}
+
+}
+@media screen and (max-width: 972px) {
+.header-widget {
+    top: -50px;
+}
+}
+@media screen and (max-width: 880px) {
+.social-widget {
+    display: block;
+    position: relative;
+    float: none !important;
+    top: auto;
+    bottom: auto;
+    margin-top: -40px;
+}
+
+span.book-now-header {
+    position: relative !important;
+    display: inline;
+}
+
+.header-widget {
+    top: -40px;
+}
+.single-property .col3-1,
+.single-property .col3-2 {
+    width: 100% !important;
+    float: none !important;
+    display: block;
+    clear: both !important;
+    margin: 0 !important;
+}
+.col3-1.last.property-book{
+    right: 0 !important;
+}
+.single-property .post-content {
+    display: block;
+}
+.single-property .local-attraction h3.attraction-name{
+    font-size: 24pt;
+}
+}
+@media screen and (max-width: 760px) {
+#headerwrap .header-widget {
+   display: block !important;
+   text-align: right;
+}
+.home-book-now h3.module-title{
+    font-size: 36pt;
+}
+}
+@media screen and (max-width: 680px) {
+
+div#main-nav-wrap {
+    display: block;
+    width: 100%;
+    float: none;
+}
+div#menu-icon {
+    float: none;
+    background: none !important;
+    border: none;
+}
+.mobile-button:before {
+    color: #ffffff !important;
+}
+ul#main-nav {
+    width: 100% !important;
+    background: #BDBDB0 !important;
+}
+span.book-now-header {
+    display: inline-block;
+    bottom: -10px;
+}
+#header .header-widget {
+    position: relative !important;
+    top: 25px;
+
+}
+#header .social-widget {
+    position: relative !important;
+    float: none !important;
+    display: inline-block;
+    margin: 0;
+    bottom: -25px;
+}
+.col4-1{
+    width: 100% !important;
+    margin: 0;
+    float: none;
+}
+.single-property .local-attraction h3.attraction-name{
+    font-size: 30pt;
+}
+.home .col3-1 h3.image-title{
+    font-size: 32pt;
+}
+.home-check-available .row_inner .col4-1,.home-check-available .row_inner .col4-3 {
+    min-height: 250px !important;
+}
+.home-book-now h3.module-title{
+    font-size: 36pt;
+}
+.module_row_4 .tb_6_column.module_column_1.module_column{
+    height: 100%;
+}
+.home .col3-1 .image-content,
+.single-property .local-attraction .image-desc {
+    opacity: 1 !important;
+}
+}
+@media screen and (max-width: 600px) {
+.property-calendar h1.book-now, .property-calendar h1.book-now a {
+    font-size: 24pt;
+}
+
+.property-calendar p.book-now-desc {
+    font-size: 16pt;
+}
+#headerwrap #main-nav a{
+    padding: 5px;
+}
+}
+@media screen and (max-width: 460px) {
+
+}
+
+.vrc .btn-danger {
+    color: #736b67 !important;
+    background-color: #fff !important;
+    border-color: #fff; 
+}
+
+.vrc .searchbar input {
+    background-color: #bdbdb0;
+	color: #736b67 !important;
+    border: solid 1px #736b67;
+    padding: 6px 10px;
+    border-radius: 0px;
+    -webkit-appearance: none;
+}
+.submenu {
+  visibility: hidden;
+  transition: 0.2s 2s; /* delay of 1 seconds on hover off */
+}
+.parent:hover .submenu {
+  visibility: visible;
+  transition-delay: 0s; /* react immediately on hover */
+}

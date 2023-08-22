@@ -1,0 +1,11 @@
+#site-description{
+	font:italic 14px/100% Arapey, "Times New Roman", Times, serif;
+	margin:0 0 20px;
+}
+#site-description .site-taglink{
+	color:inherit;
+	font:inherit;
+}
+#site-description .site-taglink:hover{
+	text-decoration:none;
+}

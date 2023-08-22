@@ -1,0 +1,27 @@
+.pagenav{
+	padding-bottom:20px
+}
+.pagenav a,
+.pagenav span{
+	line-height:100%;
+	padding:4px 4px 8px;
+	margin:0 2px;
+	vertical-align:middle;
+	display:inline-block;
+	min-width:24px;
+	min-height:18px;
+	text-align:center;
+	border-radius:10em;
+	box-sizing:border-box;
+}
+.pagenav a{
+	background-color:#000;
+	color:#fff;
+	text-decoration:none;
+}
+.pagenav a:hover{
+	background-color:#333;
+}
+.pagenav .current{
+	text-decoration:none;
+}
