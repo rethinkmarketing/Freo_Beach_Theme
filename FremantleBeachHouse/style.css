@@ -24,7 +24,7 @@ article {
 .module-image.image-overlay img + .image-content{
     position: absolute !important;
 }
-div#site-logo {
+/*div#site-logo {
     font-family: caleighregular !important;
     font-size: 30pt;
     font-style: normal;
@@ -42,7 +42,7 @@ div#site-logo {
     display: block;
     line-height: 0;
 }
-
+*/
 div#nav-bar {
     display: none;
 }
@@ -430,7 +430,7 @@ visibility: visible;
 
 .single-property h1.post-title.entry-title,.single-property h1.post-title.entry-title a {
     color: #745D4A;
-    font-family: caleighregular !important;
+    /*font-family: caleighregular !important;*/
     font-size: 30pt;
 }
 .single-property .col3-2.first.property-desc {
@@ -705,7 +705,7 @@ div#calendar {
 }
 
 .single-property .local-attraction h3.attraction-name {
-    font-family: caleighregular !important;
+    /*font-family: caleighregular !important;*/
     font-size: 30pt;
     font-style: normal;
     color: #ffffff;
@@ -737,7 +737,7 @@ div#calendar {
 /**  Properties End  **/
 /** Guest Reviews Start **/
 h3.category-section-title a {
-    font-family: caleighregular;
+    /*font-family: caleighregular;*/
     text-transform: none;
     font-size: 30pt;
     text-decoration: none !important;
@@ -778,7 +778,7 @@ h3.category-section-title a {
 .footer-text.clearfix {
     width: 100%;
     text-align: center;
-    font-family: museo_sans100;
+    /*font-family: museo_sans100;1*/
     font-style: normal;
     color: #ffffff;
 }
